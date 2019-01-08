@@ -9,8 +9,8 @@
 
 # Run
 - prepare data
--- 将语料拷贝到cws/example/corpus下
--- 修改run.sh文件里面的数据路径
+-- move data to path "cws/example/corpus"
+-- change data path in file(run.sh)
 
 - compile command
 -- cd /cws/
