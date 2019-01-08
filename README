@@ -5,3 +5,19 @@
 # Dataset
 - [全标注训练语料](链接：https://pan.baidu.com/s/1AXdTYnSBA07zNB48G143IQ 提取码：biag)
 - [弱标注训练语料](QQ:254051244@qq.com)
+
+
+# Run
+- prepare data
+-- 将语料拷贝到cws/example/corpus下
+-- 修改run.sh文件里面的数据路径
+
+- compile command
+-- cd /cws/
+-- ./cleanall.sh
+-- cmake . 
+-- make -j 10
+
+- run command
+-- cd example
+-- ./run.sh
